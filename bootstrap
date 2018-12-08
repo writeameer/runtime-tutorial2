@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+cd $LAMBDA_TASK_ROOT/moodle
+../phpexec/bin/php -S 0.0.0.0:80
